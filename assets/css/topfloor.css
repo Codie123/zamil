@@ -2134,6 +2134,7 @@ ul {
   }
   .nav-side a {
     margin-left: 0 !important;
+    color: #171926;
   }
   .main-menu-three__right {
     position: fixed;
@@ -2146,7 +2147,7 @@ ul {
     flex-wrap: wrap;
     gap: 40px;
     padding: 10px;
-    background: #171926;
+    background: var(--topfloor-base);
   }
 }
 
