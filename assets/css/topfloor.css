@@ -2060,7 +2060,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   padding: 0px 0px 0px;
   z-index: 1;
 }
@@ -2075,9 +2075,17 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 33px 0px 33px;
+  background-color: #171926;
+  padding: 13.7px 60px 21px 23px;
+  clip-path: polygon(0 0, 100% 0%, 85% 100%, 0% 100%);
+  left: -25px;
 }
-
+.main-menu-three__logo h3,
+.logo-box h3 {
+  color: white;
+  font-family: var(--topfloor-font);
+  font-weight: 600;
+}
 .main-menu-three__left {
   position: relative;
   display: block;
@@ -2104,16 +2112,42 @@ ul {
   padding: 20px 0;
 }
 
-.main-menu-three__search {
-  position: relative;
-  display: flex;
-  align-items: center;
-  color: var(--topfloor-black);
-  font-size: 21px;
-}
-
-.main-menu-three__search:hover {
+.nav-side a:hover {
   color: var(--topfloor-base);
+}
+@media (max-width: 600px) {
+  .main-menu-three__logo img {
+    width: 25%;
+  }
+  .main-menu-three__logo h3 {
+    font-size: 1em;
+  }
+  .main-menu-three__logo a {
+    padding: 15px 5px 15px 15px;
+    justify-content: flex-start;
+  }
+}
+@media (max-width: 1025px) {
+  .nav-side {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-side a {
+    margin-left: 0 !important;
+  }
+  .main-menu-three__right {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+  }
+  .main-menu-three__search-btn-box {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 10px;
+    background: #171926;
+  }
 }
 
 .main-menu-three .main-menu__list > li,
@@ -6320,7 +6354,15 @@ ul {
   position: relative;
   display: block;
 }
-
+.footer-widget__logo a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.footer-widget__logo img {
+  width: 30%;
+}
 .footer-widget__about-text {
   color: var(--topfloor-white);
   margin-top: 30px;
@@ -8629,7 +8671,7 @@ ul {
   position: relative;
   display: block;
   background-color: var(--topfloor-black);
-  padding: 0 0 120px;
+  padding: 25px 0 120px;
   z-index: 1;
 }
 
