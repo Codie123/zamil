@@ -27,8 +27,8 @@
 
   "expertise": "Roof Insulation and Metal Roofing",
   "expertisetext": "At Private Materials Company, we specialize in polyurethane thermal insulation and waterproofing, and metal roofing, proving 100% suitability for the harsh weather conditions in Saudi Arabia. Our commitment to quality and innovation has cemented our reputation as a reliable partner in delivering high-quality work.",
-  "innovativetext":" Experience in roof insulation ",
-  
+  "innovativetext": " Experience in roof insulation ",
+
   "qualitytext": "High-Quality Materials",
   "awardtext": "Award-Winning",
 
@@ -52,7 +52,7 @@
   "sound": "Sound Insulation",
 
   "metal": "Metal Tiles",
-  "sandwich": "Ductite",
+  "sandwich": "Duck tile",
 
   "processtitle": "Surface Preparation Consists of Four Steps",
 
@@ -70,5 +70,27 @@
 
   "ourworks": "Our Works",
 
-  "navigation": "Navigation"
+  "navigation": "Navigation",
+
+  "projectitle1": "title image",
+  "projectitle2": "title image",
+  "projectitle3": "title image",
+  "projectitle4": "title image",
+  "projectitle5": "title image",
+  "projectitle6": "title image",
+  "projectitle7": "title image",
+  "projectitle8": "title image",
+  "projectitle9": "title image",
+  "projectitle10": "title image",
+  "projectitle11": "title image",
+  "projectitle12": "title image",
+  "projectitle13": "title image",
+  "projectitle14": "title image",
+  "projectitle15": "title image",
+  "projectitle16": "title image",
+  "projectitle17": "title image",
+  "projectitle18": "title image",
+  "projectitle19": "title image",
+  "projectitle20": "title image",
+  "projectitle21": "title image"
 }
