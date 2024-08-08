@@ -15344,6 +15344,23 @@ ul {
   font-size: 1.5rem;
   font-weight: 700;
 }
+.wt-btn {
+  position: fixed;
+  bottom: 3%;
+  left: 1%;
+  z-index: 1000;
+  padding: 1rem 1rem;
+  background-color: #37d44c;
+  border-radius: 52px;
+  transition: all 0.5s ease;
+  border: 1px solid transparent;
+}
+.wt-btn:hover {
+  background: transparent;
+  border: 1px solid #40c351;
+  transition: all 0.5s ease;
+}
+
 /* ends */
 /*--------------------------------------------------------------
 # End
