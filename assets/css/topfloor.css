@@ -6540,7 +6540,9 @@ ul {
 .footer-widget__contact-list li a:hover {
   color: var(--topfloor-base);
 }
-
+.footer-widget__contact-list li a p:hover {
+  color: var(--topfloor-base);
+}
 .footer-widget__contact-list li p {
   color: var(--topfloor-white);
 }
