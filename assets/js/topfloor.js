@@ -857,3 +857,6 @@ function translate(lng, tagAttr) {
   translate.process();
 }
 // ends
+window.addEventListener("contextmenu", (e) => {
+  e.preventDefault();
+});
